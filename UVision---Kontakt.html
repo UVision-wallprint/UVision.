@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="pl-PL"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Skontaktuj się z nami, zamów swój druk ścienny">
+    <meta name="description" content="UVision – profesjonalny druk ścienny dopasowany do Ciebie. Twoja wizja, nasza technologia - perfekcyjny efekt.">
+    <title>Zamów swój druk ścienny z UVision!</title>
+    
+<link rel="stylesheet" href="UVision---Kontakt.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 7.14.0, nicepage.com">
+    <link rel="icon" href="images/tylkologonobg1.png">
+    
+    
+    
+    
+    
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900">
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "UVision - Druk ścienny",
+		"logo": "images/tylkologonobg1.png?rand=1e91",
+		"sameAs": [
+				"https://www.facebook.com/profile.php?id=61576087033995",
+				"https://instagram.com/uvision.wallprint",
+				"https://www.facebook.com/profile.php?id=61576087033995",
+				"https://instagram.com/uvision.wallprint"
+		]
+}</script>
+    <meta name="theme-color" content="#182afa">
+    <meta property="og:title" content="Zamów swój druk ścienny z UVision!">
+    <meta property="og:description" content="UVision – profesjonalny druk ścienny dopasowany do Ciebie. Twoja wizja, nasza technologia - perfekcyjny efekt.">
+    <meta property="og:type" content="website">
+  <meta name="referrer" content="origin"><script>
+    window.recaptchaRenderedV2 = false;
+    window.recaptchaFallback = false;
+    window.recaptchaSiteKeyV2 = '6LebRIorAAAAAEBCYCVXLpZKNt1KxwfbefWqDvFL';
+
+    function gdprConfirmed() {
+        return true;
+    }
+
+    function dynamicLoadScript() {
+        var script = document.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js?render=6LfP3fQrAAAAAHED8L59Q3nyikT_p48sQL5LReYO';
+        script.async = true;
+        script.onload = function () {
+            var event = new CustomEvent("recaptchaLoaded");
+            document.dispatchEvent(event);
+        };
+        document.body.appendChild(script);
+    }
+
+    function showRecaptchaError(error) {
+        error = error || '';
+        var formError = document.querySelector('.u-form-send-error');
+
+        if (formError) {
+            formError.innerText = 'Błąd właściciela witryny: ' + error.replace(/:[\s\S]*/, '');
+            formError.style.display = 'block';
+        }
+
+        console.error('Error in grecaptcha: ', error);
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var confirmButtons = document.querySelectorAll('.u-cookies-consent .u-button-confirm');
+        confirmButtons.forEach(function (button) {
+            button.onclick = dynamicLoadScript;
+        });
+    });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            if (!gdprConfirmed()) {
+                return;
+            }
+            dynamicLoadScript();
+        });
+    </script>
+
+    <script>
+        document.addEventListener("recaptchaLoaded", function() {
+            if (!gdprConfirmed()) {
+                return;
+            }
+
+            (function (grecaptcha, sitekey, actions) {
+                var recaptcha = {
+                    execute: function (action, submitFormCb) {
+                        if (typeof grecaptcha === 'undefined' || typeof grecaptcha.execute !== 'function') {
+                            showRecaptchaError('reCAPTCHA script failed to load.');
+                            return;
+                        }
+
+                        try {
+                            grecaptcha.execute(sitekey, {action: action}).then((token) => {
+                                if (!token) {
+                                    throw new Error('Empty token received from reCAPTCHA');
+                                }
+
+                                var forms = document.getElementsByTagName('form');
+
+                                for (var i = 0; i < forms.length; i++) {
+                                    var response = forms[i].querySelector('[name="recaptchaResponse"]');
+
+                                    if (!response) {
+                                        response = document.createElement('input');
+                                        response.setAttribute('type', 'hidden');
+                                        response.setAttribute('name', 'recaptchaResponse');
+                                        forms[i].appendChild(response);
+                                    }
+
+                                    response.value = token;
+                                }
+
+                                submitFormCb();
+                            }).catch((e) => {
+                                showRecaptchaError(e.message);
+                            });
+                        } catch (e) {
+                            showRecaptchaError(e.message);
+                        }
+                    },
+
+                    executeContact: function (submitFormCb) {
+                        recaptcha.execute(actions['contact'], submitFormCb);
+                    }
+                };
+
+                window.recaptchaObject = recaptcha;
+                window.grecaptchaObject = grecaptcha;
+            })(
+                grecaptcha,
+                
+                '6LfP3fQrAAAAAHED8L59Q3nyikT_p48sQL5LReYO',
+                {'contact': 'contact'}
+            );
+        });
+    </script>
+
+    <script>
+    window.showRecaptchaV2 = function (form) {
+        if (!form || !form.length) {
+            return;
+        }
+        if (typeof window.grecaptchaObject === 'undefined' || !window.grecaptchaObject) {
+            return;
+        }
+
+        const formEl = form[0];
+
+        let container = document.getElementById('recaptcha-v2-container');
+        if (!container) {
+            container = document.createElement('div');
+            container.id = 'recaptcha-v2-container';
+            formEl.parentElement.appendChild(container);
+        }
+
+        let tokenReceived = false;
+        let timeoutHandle;
+
+        if (window.recaptchaRenderedV2 === false || typeof window.recaptchaRenderedV2 === 'undefined') {
+            window.recaptchaRenderedV2 = window.grecaptchaObject.render('recaptcha-v2-container', {
+                'sitekey': window.recaptchaSiteKeyV2,
+                'size': 'invisible',
+                'callback': function (token) {
+                    clearTimeout(timeoutHandle);
+
+                    if (!token) {
+                        showRecaptchaError('reCAPTCHA v2 token was empty. Please try again.');
+                        return;
+                    }
+
+                    tokenReceived = true;
+
+                    let recaptchaResponseV2 = formEl.querySelector('input[name="recaptchaResponseV2"]');
+
+                    if (!recaptchaResponseV2) {
+                        recaptchaResponseV2 = document.createElement('input');
+                        recaptchaResponseV2.type = 'hidden';
+                        recaptchaResponseV2.name = 'recaptchaResponseV2';
+                        formEl.appendChild(recaptchaResponseV2);
+                    }
+
+                    recaptchaResponseV2.value = token;
+
+                    if (window.recaptchaSiteKeyV2) {
+                        let siteKeyInput = formEl.querySelector('input[name="siteKey"]');
+
+                        if (siteKeyInput) {
+                            siteKeyInput.value = window.recaptchaSiteKeyV2;
+                        }
+                    }
+
+                    document.querySelectorAll('.u-form-send-error').forEach(el => {
+                        el.style.display = 'none';
+                    });
+
+                    const event = new CustomEvent('submit', {
+                        detail: { recaptchaPassed: true },
+                        bubbles: true,
+                        cancelable: true,
+                    });
+
+                    formEl.dispatchEvent(event);
+                },
+                'error-callback': function () {
+                    clearTimeout(timeoutHandle);
+                    showRecaptchaError('reCAPTCHA v2 error. Please try again.');
+                },
+                'expired-callback': function () {
+                    clearTimeout(timeoutHandle);
+                }
+            });
+
+            window.grecaptchaObject.reset(window.recaptchaRenderedV2);
+
+            setTimeout(() => {
+                window.grecaptchaObject.execute(window.recaptchaRenderedV2);
+            }, 300);
+
+            timeoutHandle = setTimeout(function () {
+                if (!tokenReceived) {
+                    showRecaptchaError('The Contact Form could not be submitted because Google reCAPTCHA v3 detected unusual activity from your connection. Please try again later, or complete the reCAPTCHA v2 challenge if it appears.');
+                }
+            }, 120000);
+        } else {
+            window.grecaptchaObject.reset(window.recaptchaRenderedV2);
+
+            setTimeout(() => {
+                window.grecaptchaObject.execute(window.recaptchaRenderedV2);
+            }, 300);
+        }
+    };
+    </script>
+<meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="pl"><header class="u-black u-box-shadow u-clearfix u-header u-sticky u-sticky-9848 u-header" id="sec-d497"><div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
+        <nav class="u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-menu-1" role="navigation">
+          <div class="menu-collapse u-custom-font u-font-montserrat" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-border u-custom-border-color u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-4-light-1 u-text-hover-palette-4-dark-1" href="#" tabindex="-1" aria-label="Open menu" aria-controls="4be3">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul role="menubar" class="u-custom-font u-font-montserrat u-nav u-unstyled u-nav-1"><li role="none" class="u-nav-item"><a role="menuitem" class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-palette-4-dark-1 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link" href="./" style="padding: 13px 20px;">Strona główna</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-palette-4-dark-1 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link" href="UVision---Kontakt.html" style="padding: 13px 20px;">Kontakt</a>
+</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-palette-4-dark-1 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link" aria-haspopup="true" style="padding: 13px 20px;">Strony</a><div class="u-nav-popup"><ul role="menu" class="u-h-spacing-22 u-nav u-unstyled u-v-spacing-14 u-nav-2" aria-label="Strony menu"><li role="none" class="u-nav-item"><a role="menuitem" class="u-active-palette-4-dark-1 u-button-style u-grey-5 u-hover-palette-2-base u-nav-link" href="UVision---Poznaj-druk-ścienny.html">UVision - Poznaj druk ścienny</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-active-palette-4-dark-1 u-button-style u-grey-5 u-hover-palette-2-base u-nav-link" href="UVision---Nasze-realizacje.html">UVision - Nasze realizacje</a>
+</li></ul>
+</div>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse" id="4be3" role="region" aria-label="Menu panel">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close" tabindex="-1" aria-label="Close menu"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="./">Strona główna</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="UVision---Kontakt.html">Kontakt</a>
+</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-button-style u-nav-link" aria-haspopup="true">Strony</a><div class="u-nav-popup"><ul role="menu" class="u-h-spacing-22 u-nav u-unstyled u-v-spacing-14 u-nav-4" aria-label="Strony menu"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="UVision---Poznaj-druk-ścienny.html">UVision - Poznaj druk ścienny</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="UVision---Nasze-realizacje.html">UVision - Nasze realizacje</a>
+</li></ul>
+</div>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <a href="" class="u-image u-logo u-image-1" data-image-width="728" data-image-height="1040">
+          <img src="images/tylkologonobg1.png?rand=1e91" class="u-logo-image u-logo-image-1">
+        </a>
+        <a href="./" data-page-id="19817155" class="u-image u-logo u-image-2" data-image-width="992" data-image-height="200">
+          <img src="images/logonapis.png" class="u-logo-image u-logo-image-2" title="Strona główna">
+        </a>
+        <div class="u-hidden-md u-hidden-sm u-hidden-xs u-social-icons u-social-icons-1">
+          <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=61576087033995"><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-6957"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-6957"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
+c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path></svg></span>
+          </a>
+          <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/uvision.wallprint"><span class="u-icon u-social-icon u-social-instagram u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-477f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-477f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
+C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
+c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
+          </a>
+        </div>
+      </div><style class="u-sticky-style" data-style-id="9848">.u-sticky-fixed.u-sticky-9848, .u-body.u-sticky-fixed .u-sticky-9848 {
+box-shadow: 0px -2px 8px 0px rgba(255,209,1,1) !important
+}</style></header> 
+    <section class="u-clearfix u-image u-valign-middle-lg u-valign-middle-md u-valign-middle-sm lazyload u-section-1" id="sec-9943" data-image-width="1980" data-image-height="1200" data-bg="url(&quot;images/FDS-min.jpg&quot;)">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <h2 class="u-align-center u-custom-font u-font-montserrat u-text u-text-palette-2-base u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Skontaktuj się z nami</h2>
+      </div>
+    </section>
+    <section class="u-clearfix u-valign-top-md u-section-2" id="block-1">
+      <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-100 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-align-center u-container-align-center-lg u-container-align-center-md u-container-align-center-sm u-container-align-center-xl u-container-style u-grey-90 u-layout-cell u-size-60 u-layout-cell-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-container-layout-1">
+                <div class="u-opacity u-opacity-10 u-shape u-shape-svg u-text-white u-shape-1">
+                  <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 120" style=""><use xlink:href="#svg-2f86"></use></svg>
+                  <svg class="u-svg-content" viewBox="0 0 160 120" x="0px" y="0px" id="svg-2f86" style="enable-background:new 0 0 160 120;"><g><path d="M159.9,12.2c0-0.2,0.1-0.4,0.1-0.6l-48.8,49.5L160,109c0-0.3-0.1-0.7-0.1-1V12.2L159.9,12.2z"></path><path d="M103.7,68.7L83.8,88.9c-1,1-2.3,1.5-3.6,1.5c-1.3,0-2.6-0.5-3.6-1.5L56.7,69.4L7.6,119.2c1.2,0.5,2.5,0.8,3.8,0.8h137.4
+		c2,0,3.9-0.6,5.5-1.6L103.7,68.7z"></path><path d="M80.1,77.4l74.5-75.6c-1.7-1.1-3.7-1.8-5.8-1.8H11.5C8.8,0,6.2,1.1,4.3,2.8L80.1,77.4z"></path><path d="M0,14v94c0,1.1,0.2,2.1,0.5,3.1L49,62L0,14z"></path>
+</g></svg>
+                </div>
+                <img class="u-image u-image-contain u-image-default u-preserve-proportions lazyload u-image-1" alt="" data-image-width="1920" data-image-height="1920" data-src="images/Logo_nobg.PNG" loading="lazy">
+                <p class="u-align-center u-custom-font u-font-montserrat u-text u-text-white u-text-1"><span class="u-file-icon u-icon u-text-palette-2-base"><img src="images/1151429-22adc4eb.png" alt=""></span>&nbsp;+48 531-096-876<br>
+                </p>
+                <p class="u-align-center u-custom-font u-font-montserrat u-text u-text-2"><span class="u-file-icon u-icon u-text-palette-2-base"><img src="images/646094-a8aeeee7.png" alt=""></span>&nbsp;uvision.wallprint@gmail.com 
+                </p>
+                <p class="u-align-center u-custom-font u-font-montserrat u-text u-text-3"><span class="u-icon u-text-palette-2-base"><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" style="width: 1em; height: 1em;"><g><path d="M27.557,12c-3.859,0-7,3.141-7,7s3.141,7,7,7s7-3.141,7-7S31.416,12,27.557,12z M27.557,24c-2.757,0-5-2.243-5-5
+		s2.243-5,5-5s5,2.243,5,5S30.314,24,27.557,24z"></path><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+		L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M41.099,31.431L27.38,51.243L13.639,31.4
+		C8.44,24.468,9.185,13.08,15.235,7.031C18.479,3.787,22.792,2,27.38,2s8.901,1.787,12.146,5.031
+		C45.576,13.08,46.321,24.468,41.099,31.431z"></path>
+</g></svg></span>&nbsp;Rybnik, Śląskie 
+                </p>
+                <div class="u-social-icons u-social-icons-1">
+                  <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=61576087033995"><span class="u-icon u-social-facebook u-social-icon u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-f4a6"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-f4a6"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
+c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path></svg></span>
+                  </a>
+                  <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/uvision.wallprint"><span class="u-icon u-social-icon u-social-instagram u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-b14a"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-b14a"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
+C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
+c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
+                  </a>
+                </div><span class="u-icon u-text-palette-2-base u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 58 58" style=""><use xlink:href="#svg-8919"></use></svg><svg class="u-svg-content" viewBox="0 0 58 58" x="0px" y="0px" id="svg-8919" style="enable-background:new 0 0 58 58;"><path d="M50.688,48.222C55.232,43.101,58,36.369,58,29c0-7.667-2.996-14.643-7.872-19.834c0,0,0-0.001,0-0.001
+	c-0.004-0.006-0.01-0.008-0.013-0.013c-5.079-5.399-12.195-8.855-20.11-9.126l-0.001-0.001L29.439,0.01C29.293,0.005,29.147,0,29,0
+	s-0.293,0.005-0.439,0.01l-0.563,0.015l-0.001,0.001c-7.915,0.271-15.031,3.727-20.11,9.126c-0.004,0.005-0.01,0.007-0.013,0.013
+	c0,0,0,0.001-0.001,0.002C2.996,14.357,0,21.333,0,29c0,7.369,2.768,14.101,7.312,19.222c0.006,0.009,0.006,0.019,0.013,0.028
+	c0.018,0.025,0.044,0.037,0.063,0.06c5.106,5.708,12.432,9.385,20.608,9.665l0.001,0.001l0.563,0.015C28.707,57.995,28.853,58,29,58
+	s0.293-0.005,0.439-0.01l0.563-0.015l0.001-0.001c8.185-0.281,15.519-3.965,20.625-9.685c0.013-0.017,0.034-0.022,0.046-0.04
+	C50.682,48.241,50.682,48.231,50.688,48.222z M2.025,30h12.003c0.113,4.239,0.941,8.358,2.415,12.217
+	c-2.844,1.029-5.563,2.409-8.111,4.131C4.585,41.891,2.253,36.21,2.025,30z M8.878,11.023c2.488,1.618,5.137,2.914,7.9,3.882
+	C15.086,19.012,14.15,23.44,14.028,28H2.025C2.264,21.493,4.812,15.568,8.878,11.023z M55.975,28H43.972
+	c-0.122-4.56-1.058-8.988-2.75-13.095c2.763-0.968,5.412-2.264,7.9-3.882C53.188,15.568,55.736,21.493,55.975,28z M28,14.963
+	c-2.891-0.082-5.729-0.513-8.471-1.283C21.556,9.522,24.418,5.769,28,2.644V14.963z M28,16.963V28H16.028
+	c0.123-4.348,1.035-8.565,2.666-12.475C21.7,16.396,24.821,16.878,28,16.963z M30,16.963c3.179-0.085,6.3-0.566,9.307-1.438
+	c1.631,3.91,2.543,8.127,2.666,12.475H30V16.963z M30,14.963V2.644c3.582,3.125,6.444,6.878,8.471,11.036
+	C35.729,14.45,32.891,14.881,30,14.963z M40.409,13.072c-1.921-4.025-4.587-7.692-7.888-10.835
+	c5.856,0.766,11.125,3.414,15.183,7.318C45.4,11.017,42.956,12.193,40.409,13.072z M17.591,13.072
+	c-2.547-0.879-4.991-2.055-7.294-3.517c4.057-3.904,9.327-6.552,15.183-7.318C22.178,5.38,19.512,9.047,17.591,13.072z M16.028,30
+	H28v10.038c-3.307,0.088-6.547,0.604-9.661,1.541C16.932,37.924,16.141,34.019,16.028,30z M28,42.038v13.318
+	c-3.834-3.345-6.84-7.409-8.884-11.917C21.983,42.594,24.961,42.124,28,42.038z M30,55.356V42.038
+	c3.039,0.085,6.017,0.556,8.884,1.4C36.84,47.947,33.834,52.011,30,55.356z M30,40.038V30h11.972
+	c-0.113,4.019-0.904,7.924-2.312,11.58C36.547,40.642,33.307,40.126,30,40.038z M43.972,30h12.003
+	c-0.228,6.21-2.559,11.891-6.307,16.348c-2.548-1.722-5.267-3.102-8.111-4.131C43.032,38.358,43.859,34.239,43.972,30z
+	 M9.691,47.846c2.366-1.572,4.885-2.836,7.517-3.781c1.945,4.36,4.737,8.333,8.271,11.698C19.328,54.958,13.823,52.078,9.691,47.846
+	z M32.521,55.763c3.534-3.364,6.326-7.337,8.271-11.698c2.632,0.945,5.15,2.209,7.517,3.781
+	C44.177,52.078,38.672,54.958,32.521,55.763z"></path></svg></span>
+                <p class="u-align-center u-text u-text-4">Drukujemy w całej Polsce!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-container-align-center-lg u-container-align-center-md u-container-align-center-sm u-container-align-center-xl u-image u-valign-middle-lg u-valign-middle-sm u-valign-middle-xs u-valign-top-md lazyload u-section-3" id="sec-2f9b" data-image-width="1980" data-image-height="1200" data-bg="url(&quot;images/FDS-min.jpg&quot;)">
+      <div class="custom-expanded data-layout-selected u-clearfix u-gutter-100 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-align-center u-container-align-center-lg u-container-align-center-md u-container-align-center-sm u-container-align-center-xl u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-1" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500">
+              <div class="u-container-layout u-valign-bottom-md u-valign-bottom-xl u-valign-top-xs u-container-layout-1">
+                <h6 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-1"><span class="u-file-icon u-icon"><img src="images/149183.png" alt=""></span>&nbsp;Napisz do nas! 
+                </h6>
+                <div class="u-form u-form-1">
+                  <form action="https://service.nicepagesrv.com/form/v4/form-process" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="email" name="form">
+                    <div class="u-form-group u-form-name">
+                      <label for="name-daf4" class="u-label u-text-white">Imię</label>
+                      <input type="text" placeholder="Twoje imię" id="name-daf4" name="name" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle" required="">
+                    </div>
+                    <div class="u-form-email u-form-group">
+                      <label for="email-daf4" class="u-label u-text-white">E-mail</label>
+                      <input type="email" placeholder="Podaj swój adres e-mail" id="email-daf4" name="email" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle" required="">
+                    </div>
+                    <div class="u-form-group u-form-message">
+                      <label for="message-daf4" class="u-label u-text-white">Wiadomość</label>
+                      <textarea placeholder="Treść Twojej wiadomości" rows="4" cols="50" id="message-daf4" name="message" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle" required=""></textarea>
+                    </div>
+                    <div class="u-form-agree u-form-group u-form-group-4">
+                      <label class="u-block-2c1c-42 u-field-label" style=""></label>
+                      <input type="checkbox" id="agree-f183" name="agree" class="u-agree-checkbox u-field-input" required="">
+                      <label for="agree-f183" class="u-block-2c1c-42 u-field-label" style="">AKCEPTUJĘ<a href="UVision---Polityka-prywatności.html" data-page-id="62297595" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-2-base u-btn-1" title="Polityka prywatności"> Politykę prywatności</a>
+                      </label>
+                    </div>
+                    <div class="u-align-left u-form-group u-form-submit">
+                      <a href="#" class="u-active-palette-4-light-1 u-border-hover-grey-60 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-font u-font-montserrat u-hover-palette-4-dark-1 u-palette-2-base u-radius-50 u-btn-2">Wyślij</a>
+                      <input type="submit" value="submit" class="u-form-control-hidden">
+                    </div>
+                    <div class="u-form-send-message u-form-send-success">Dziękujemy! Twoja wiadomość została wysłana!</div>
+                    <div class="u-form-send-error u-form-send-message">Przepraszamy, wiadomość nie mogła zostać wysłana. Popraw błędy i spróbuj ponownie.</div>
+                    <input type="hidden" value="" name="recaptchaResponse">
+                    <input type="hidden" name="formServices" value="233cd899-c0ba-86e2-7e1c-bda7de96541c">
+                    <input type="hidden" name="siteKey" value="6LfP3fQrAAAAAHED8L59Q3nyikT_p48sQL5LReYO">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-image lazyload u-footer" id="sec-7512" data-image-width="1980" data-image-height="1200" data-bg="url(&quot;images/FDS-min.jpg&quot;)"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <img class="u-image u-image-contain u-image-default u-preserve-proportions lazyload u-image-1" alt="" data-image-width="1920" data-image-height="1920" data-href="./" data-page-id="19817155" title="Strona główna" data-src="images/Logo_nobg.PNG" loading="lazy">
+        <p class="u-align-center u-custom-font u-font-montserrat u-hidden-md u-hidden-sm u-hidden-xs u-text u-text-default u-text-white u-text-1">Twoja przestrzeń według two​​jej wizji.</p>
+        <div class="u-hidden-md u-hidden-sm u-hidden-xl u-hidden-xs u-social-icons u-social-icons-1">
+          <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=61576087033995"><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-49b4"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-49b4"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
+c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path></svg></span>
+          </a>
+          <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/uvision.wallprint"><span class="u-icon u-social-icon u-social-instagram u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-9636"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9636"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
+C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
+c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
+          </a>
+        </div>
+      </div></footer>
+  
+</body></html>
