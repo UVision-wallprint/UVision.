@@ -2086,7 +2086,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1089px;
+    min-height: 1018px;
   }
 
   .u-section-3 .u-text-1 {
@@ -2102,6 +2102,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   .u-section-3 .u-btn-1 {
     margin-top: 59px;
     margin-right: auto;
+    margin-bottom: 50px;
   }
 } .u-section-4 {
   background-position: 50% 50%;
@@ -2246,20 +2247,20 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 1204px;
+    min-height: 1085px;
   }
 
   .u-section-4 .u-layout-wrap-1 {
     margin-top: 29px;
-    margin-bottom: 9px;
+    margin-bottom: 5px;
   }
 
   .u-section-4 .u-layout-cell-1 {
-    min-height: 1166px;
+    min-height: 1051px;
   }
 
   .u-section-4 .u-container-layout-1 {
-    padding: 16px 0;
+    padding: 16px 0 22px;
   }
 
   .u-section-4 .u-text-1 {
@@ -2289,6 +2290,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-4 .u-text-2 {
+    font-size: 1.25rem;
     width: auto;
     margin-top: 248px;
     margin-left: 25px;
